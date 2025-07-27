@@ -1,0 +1,105 @@
+[
+  {
+    "id": "vinyl_banner_13oz",
+    "name": "13oz Vinyl Banner",
+    "category": "Banners",
+    "basePrice": 4.00,
+    "description": "Premium heavyweight 13oz scrim vinyl banner for indoor and outdoor use.",
+    "image": "assets/placeholder.jpg",
+    "paymentLink": "https://buy.stripe.com/test_13ozbanner",
+    "options": {
+      "sides": [
+        { "label": "1 Side", "multiplier": 1 },
+        { "label": "2 Sides", "multiplier": 2 }
+      ],
+      "material": [
+        { "label": "13oz Matte", "additional": 0 },
+        { "label": "13oz Gloss", "additional": 0.25 }
+      ],
+      "hem": [
+        { "label": "All Sides", "additional": 0.25 },
+        { "label": "Top & Bottom", "additional": 0.15 }
+      ],
+      "grommet": [
+        { "label": "Every 2'", "additional": 0.10 },
+        { "label": "None", "additional": 0.0 }
+      ]
+    }
+  },
+  {
+    "id": "blockout_banner_18oz",
+    "name": "18oz Blockout Banner",
+    "category": "Banners",
+    "basePrice": 5.00,
+    "description": "Durable 18oz blockout banner ideal for double‑sided prints.",
+    "image": "assets/placeholder.jpg",
+    "paymentLink": "https://buy.stripe.com/test_18ozblockout",
+    "options": {
+      "sides": [
+        { "label": "1 Side", "multiplier": 1 },
+        { "label": "2 Sides", "multiplier": 2 }
+      ],
+      "material": [
+        { "label": "18oz Matte", "additional": 0 },
+        { "label": "18oz Gloss", "additional": 0.30 }
+      ],
+      "hem": [
+        { "label": "All Sides", "additional": 0.30 },
+        { "label": "Top & Bottom", "additional": 0.20 }
+      ],
+      "grommet": [
+        { "label": "Every 2'", "additional": 0.15 },
+        { "label": "None", "additional": 0.0 }
+      ]
+    }
+  },
+  {
+    "id": "mesh_banner",
+    "name": "Mesh Banner",
+    "category": "Banners",
+    "basePrice": 4.50,
+    "description": "Perforated mesh banner perfect for windy locations and building wraps.",
+    "image": "assets/placeholder.jpg",
+    "paymentLink": "https://buy.stripe.com/test_meshbanner",
+    "options": {
+      "sides": [
+        { "label": "1 Side", "multiplier": 1 }
+      ],
+      "material": [
+        { "label": "Mesh", "additional": 0 }
+      ],
+      "hem": [
+        { "label": "All Sides", "additional": 0.20 }
+      ],
+      "grommet": [
+        { "label": "Every 2'", "additional": 0.10 },
+        { "label": "None", "additional": 0.0 }
+      ]
+    }
+  },
+  {
+    "id": "advertising_flag",
+    "name": "Advertising Flag",
+    "category": "Flags",
+    "basePrice": 7.00,
+    "description": "High‑visibility advertising flag to capture attention at events or storefronts.",
+    "image": "assets/placeholder.jpg",
+    "paymentLink": "https://buy.stripe.com/test_flag",
+    "options": {
+      "sides": [
+        { "label": "1 Side", "multiplier": 1 },
+        { "label": "2 Sides", "multiplier": 1.5 }
+      ],
+      "material": [
+        { "label": "Polyester", "additional": 0 },
+        { "label": "Satin", "additional": 0.50 }
+      ],
+      "hem": [
+        { "label": "All Sides", "additional": 0.15 }
+      ],
+      "grommet": [
+        { "label": "None", "additional": 0.0 }
+      ]
+    }
+  }
+]

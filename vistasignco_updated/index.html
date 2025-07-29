@@ -1,39 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vista Sign Co</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <!-- Use the provided logo image -->
-      <img src="assets/logo.png" alt="Vista Sign Co logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista Sign Co – Under Construction</title>
+    <style>
+      /*
+        Basic styles for a simple under‑construction page.
+        Feel free to customise colours, fonts and spacing to
+        better match your brand identity. The goal is to keep
+        the layout clean and centred while drawing attention
+        to the call‑to‑action link.
+      */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.4;
+        color: #333;
+        background-color: #f8f8f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      .container {
+        max-width: 600px;
+        padding: 40px 20px;
+      }
+      h1 {
+        margin-bottom: 0.5em;
+        font-size: 2.5rem;
+      }
+      p {
+        margin-bottom: 1.5em;
+        font-size: 1.2rem;
+      }
+      a {
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 4px;
+        background-color: #0070f3;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.2s ease;
+      }
+      a:hover {
+        background-color: #005bb5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Site under construction</h1>
+      <p>
+        We're busy rebuilding our website to serve you better. In the meantime,
+        please visit our portfolio to see examples of our work.
+      </p>
+      <!--
+        Replace "portfolio.html" with the correct URL to your portfolio page.
+        If your portfolio is hosted on another domain, update the href
+        accordingly. For example: href="https://yourportfolio.com"
+      -->
+      <!--
+        Link updated to point to your external portfolio hosted on Adobe Portfolio.
+        This will open the portfolio in a new tab when visitors click it.
+      -->
+      <a href="https://willkimcreative.myportfolio.com/" target="_blank">View our portfolio</a>
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Products</a></li>
-        <li><a href="upload.html">Upload Artwork</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="hero">
-      <h1>Your One‑Stop Printing Solution</h1>
-      <p>High‑quality banners, flags, displays & more – crafted with care and delivered fast.</p>
-      <a href="#products" class="btn">View Products</a>
-    </section>
-    <section id="products" class="products-grid">
-      <!-- Product cards will be inserted here by JavaScript -->
-    </section>
-  </main>
-  <footer>
-    <p>&copy; <span id="year"></span> Vista Sign Co. All rights reserved.</p>
-  </footer>
-  <script src="data.js"></script>
-  <script src="index.js"></script>
-</body>
+  </body>
 </html>

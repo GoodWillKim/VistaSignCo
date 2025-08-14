@@ -4,8 +4,7 @@ import { useSearchParams } from "next/navigation";
 import ProductGrid from "@/components/ProductGrid";
 import { categories } from "@/data/products";
 
-e
-export default function CatalogPage(){
+eexport default function CatalogPage(){
   const sp = useSearchParams();
   const startCat = sp.get('c') || undefined;
   const [cat, setCat] = useState<string|undefined>(startCat);

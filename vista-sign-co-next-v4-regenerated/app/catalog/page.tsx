@@ -4,12 +4,7 @@ import { useSearchParams } from "next/navigation";
 import ProductGrid from "@/components/ProductGrid";
 import { categories } from "@/data/products";
 
-export const metadata = {
-  title: "Catalog",
-  description: "Explore our full catalog of signs, displays, and graphics.",
-  alternates: { canonical: "/catalog" }
-};
-
+e
 export default function CatalogPage(){
   const sp = useSearchParams();
   const startCat = sp.get('c') || undefined;
